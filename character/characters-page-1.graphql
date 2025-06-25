@@ -1,7 +1,8 @@
 query{
     characters(page:1){
     # use results because the query returns a list of characters
-       results{ id
+       results{ 
+        id
         name
         status
         image
