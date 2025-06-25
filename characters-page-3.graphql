@@ -1,0 +1,11 @@
+query{
+    characters(page:3){
+    # use results because the query returns a list of characters
+       results{ id
+        name
+        status
+        image
+
+    }
+}
+}
